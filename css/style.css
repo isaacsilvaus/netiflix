@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: black;
+    background-image: url(../img/catalogo.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cabeçalho{
+    margin-top: 0;
+}
+
+.cabeçalho > img{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+.cabeçalho > select{
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.53);
+    height: 40px;
+    width: 150px;
+    margin-left: 800px;
+    margin-top: -40px;
+}
+
+.cabeçalho > button{
+    margin-left: 30px;
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+}
+
+.sessao2{
+    margin-top: 300px;
+}
+
+.sessao2 > h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 300px;
+    color: white;
+    font-weight: bold;
+}
+
+.sessao2 > h3{
+    margin-top: 30px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 500px;
+    color: white;
+    font-weight: bold;
+}
+
+.sessao2 > h6{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 300px;
+    color: white;
+    font-weight: bold;
+}
+
+.sessao2 > input{
+    width: 400px;
+    padding-left: 20px;
+    height: 60px;
+    margin-left: 400px;
+    background-color: rgba(55, 54, 54, 0.37);
+    border: none;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.sessao2 > button{
+    margin-left: 20px;
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 19px;
+    border-radius: 7px;
+    padding:10px 10px ;
+}
